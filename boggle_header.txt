@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix} Boggle Program by Wesley Aldridge
+${licensePrefix} https://github.com/WesleyAldridge
+<#if licenseLast??>
+${licenseLast}
+</#if>
