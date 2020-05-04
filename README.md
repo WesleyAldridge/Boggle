@@ -20,7 +20,7 @@ A Boggle game made in Java.
 
 #### Rules:
 
-- Words need to be constructed from alphabets that appear on the faces of connecting adjacent cubes. This neighboring cube can be present horizontally, vertically, or diagonally.
+- Words need to be constructed from letters that appear on the faces of connecting adjacent cubes. This neighboring cube can be present horizontally, vertically, or diagonally.
 - From the first cube-face a player chooses, no tiles can be skipped to jump to another one when forming a particular word.
 - No cube can be used more than once in the same word.
 - The direction of sequence of the letters appearing on the cubes is not specific.
