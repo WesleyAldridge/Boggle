@@ -7,7 +7,7 @@ A Boggle game made in Java.
 
 #### Requirements:
 - A 4 × 4 square grid.
-- 16 cubes with different letters printed on each of their faces. In this 2D implementation, only the top face of each cube is visible, however the "Shuffle Cubes" button works as normal.
+- 16 cubes with different letters printed on each of their faces. In this 2D implementation, only the top face of each cube is visible, however the "Shake Dice" button works as normal.
 - A 3 minute timer.
 
 #### How to play:
