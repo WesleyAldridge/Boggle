@@ -7,7 +7,7 @@ package boggle;
 import core.Board;
 import inputOutput.ReadDataFile;
 import java.util.ArrayList;
-import javax.swing.JOptionPane;
+//import javax.swing.JOptionPane;
 import userInterface.BoggleUi;
 
 /**

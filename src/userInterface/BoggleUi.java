@@ -6,9 +6,9 @@ package userInterface;
 
 import core.Board;
 import java.awt.*;
-import static java.awt.GridBagConstraints.LINE_END;
-import static java.awt.GridBagConstraints.FIRST_LINE_END;
-import static java.awt.GridBagConstraints.LINE_START;
+//import static java.awt.GridBagConstraints.LINE_END;
+//import static java.awt.GridBagConstraints.FIRST_LINE_END;
+//import static java.awt.GridBagConstraints.LINE_START;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
@@ -25,7 +25,6 @@ import javax.swing.text.StyleContext;
  * @author Wesley Aldridge    
  */
 public class BoggleUi {
-    //Assignment 1-4:
     JFrame jframe;
     JMenuBar jmenubar;
     JMenu jmenu;
@@ -41,7 +40,6 @@ public class BoggleUi {
     JLabel currentWordLabel;
     JButton boggleButton;       //the 16 Boggle buttons
     JButton shakeButton;
-    //JTextArea textArea;
     JTextPane textPane;
     JPanel innerCurrentWord;
     JButton submitWord;
@@ -52,18 +50,18 @@ public class BoggleUi {
     JScrollPane scrollpane;
     Board board;
     
-    //Assignment 5:
+    
     Timer timer;
-    ResetListener resetListener = new ResetListener();  //listener for resetting the game board
+    ResetListener resetListener = new ResetListener();  // listener for resetting the game board
     ExitListener exitListener = new ExitListener();
     ClockListener clockListener = new ClockListener();
-    int timeRemaining = 180;
+    int timeRemaining = 180; // 180 seconds = 3 minutes
     int minutes, seconds;
     
-    //Assignment 6:
-        Random rand = new Random();//for producing random numbers
-        int computerScore;//num of words computer found
-        int playerScore = 0;//player's numeric tally of points, initialize to 0
+    
+        Random rand = new Random(); // for producing random numbers
+        int computerScore; // num of words computer found
+        int playerScore = 0; // player's numeric tally of points, initialize to 0
     
         //listeners
         BoggleButtonListener bogglebuttonlistener = new BoggleButtonListener();
@@ -90,11 +88,13 @@ public class BoggleUi {
         //Button
         JButton clearWord;
         
-        
-    
+
 ///////// </END VARIABLES> /////////
 /*
   
+     
+        
+        
         
         
 */        
@@ -740,7 +740,7 @@ public class BoggleUi {
                 eastPanel.add(clock);
                      
                 //SHAKE BUTTON
-                shakeButton = new JButton("Shake Dice");
+                shakeButton = new JButton("Shuffle Cubes");
                 shakeButton.setPreferredSize(new Dimension(250,120));
                 shakeButton.setMaximumSize(new Dimension(250,120));
                 shakeButton.setMinimumSize(new Dimension(250,120));
@@ -748,7 +748,6 @@ public class BoggleUi {
                 shakeButton.setAlignmentX(0.5f);
                 
                 //button style
-                //shakeButton.setBackground(shakeDiceColor);
                 shakeButton.setFont(new Font("Sans Serif", Font.PLAIN, 16));
                 
                 shakeButton.addActionListener(resetListener);

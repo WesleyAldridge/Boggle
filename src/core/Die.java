@@ -4,7 +4,7 @@
  */
 package core;
 
-import static core.IBoard.NUMBER_OF_DICE;
+//import static core.IBoard.NUMBER_OF_DICE;
 import java.util.ArrayList;
 import java.util.Random;
 

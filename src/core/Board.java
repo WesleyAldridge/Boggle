@@ -42,14 +42,12 @@ public class Board implements IBoard {
         
         for(i = 0; i < NUMBER_OF_DICE; i++){
             die = new Die();
-            //System.out.print("Die " + i + ": ");  Assignment 2 output
             
             for(j = 0; j < NUMBER_OF_SIDES; j++) {
                 die.addLetter(storeDiceData.get(counter));
                 counter++;
             }
             
-            //die.displayLetters();                 Assignment 2 output
             storeGameDice.add(die);
         }
         
