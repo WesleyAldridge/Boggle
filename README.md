@@ -1,6 +1,8 @@
 # Boggle
 
-A Boggle game made in Java.
+A simulation of the board game Boggle in Java.
+
+![](/screenshots/boggle.gif "Example Game")
 
 ### Rules of Boggle:
 (Copied from: https://plentifun.com/rules-for-playing-boggle-word-game):
